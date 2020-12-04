@@ -1,0 +1,55 @@
+.tabs {
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0;
+    right: 0;
+  
+    .vm-header {
+      position: relative;
+  
+      font {
+        position: absolute;
+        top: 3px;
+        left: 10px;
+        font-size: 5px;
+        color: #ffffff;
+      }
+    }
+  
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    background-color: #010101;
+  
+    span {
+      line-height: 40px;
+  
+      &.icon-ai219 {
+        font-size: 21px;
+        margin-right: 5px;
+      }
+  
+      &.icon-rili:before {
+        font-size: 24px;
+        margin-left: 5px;
+      }
+    }
+  
+    .tabs-box {
+      display: flex;
+  
+      .tab-item {
+        display: block;
+        flex: 1;
+        font-size: 13px;
+        text-align: center;
+        line-height: 40px;
+        color: rgb(77, 85, 93);
+        padding: 0 5px;
+        &:nth-child(2) {
+          margin: 0 15px;
+        }
+      }
+    }
+}

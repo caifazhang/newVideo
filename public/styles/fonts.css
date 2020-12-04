@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?k2gsuo');
+  src:  url('../fonts/icomoon.eot?k2gsuo#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?k2gsuo') format('truetype'),
+    url('../fonts/icomoon.woff?k2gsuo') format('woff'),
+    url('../fonts/icomoon.svg?k2gsuo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bird .path1:before {
+  content: "\e912";
+  color: rgb(255, 94, 138);
+}
+.icon-bird .path2:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-bird .path3:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(207, 235, 112);
+}
+.icon-bird .path4:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-bird .path5:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(187, 220, 227);
+}
+.icon-bird .path6:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Ddianying:before {
+  content: "\e918";
+  color: #1296db;
+}
+.icon-mima .path1:before {
+  content: "\e90f";
+  color: rgb(41, 102, 193);
+}
+.icon-mima .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(253, 154, 22);
+}
+.icon-xiaoniao2:before {
+  content: "\e911";
+  color: #00d398;
+}
+.icon-caichananquan:before {
+  content: "\e902";
+}
+.icon-dianying .path1:before {
+  content: "\e904";
+  color: rgb(40, 39, 39);
+}
+.icon-dianying .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(224, 39, 39);
+}
+.icon-gerenziliao:before {
+  content: "\e906";
+}
+.icon-kaiqihuancun:before {
+  content: "\e907";
+}
+.icon-lishi:before {
+  content: "\e909";
+}
+.icon-shoucang:before {
+  content: "\e90e";
+}
+.icon-rili:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-shanchu:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-shangchuan:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-uniE900:before {
+  content: "\e900";
+}
+.icon-ai219:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-fanhui:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-shezhi-youjiantou:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-xihuan:before {
+  content: "\e90a";
+  color: #fff;
+}

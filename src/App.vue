@@ -1,32 +1,43 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+      <router-view :key='$route.fullPath' />
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  name: 'App',
+  // beforeCreate() {
+  //   let likes = localStorage.getItem('likes');
+
+  //   if(!likes) {
+  //     localStorage.setItem('likes',JSON.stringify([]));
+  //   }
+  // },
+}
+</script>
+
+<style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  // background-color: #161616;
+  margin: 0;
+  padding: 0;
+}
+a.router-link-exact-active {
+  font-weight: normal;
+  color: #ffffff !important;
+  border-bottom: 2px solid #ffffff;
 }
 
-#nav {
-  padding: 30px;
+.fl {
+  float: left;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.fr {
+  float: left;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.clearfix {
+  clear: both;
 }
 </style>

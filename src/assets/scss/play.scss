@@ -1,0 +1,279 @@
+.vm-play {
+    .info {
+        position: relative;
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .type {
+            display: flex;
+            justify-content: center;
+
+            .line {
+                margin: 0 5px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .like {
+            position: absolute;
+            right: 5px;
+            top: -5px;
+        }
+
+        p {
+            padding: 0 14px;
+            font-weight: normal;
+            color: #363636;
+            font-size: 12px;
+            line-height: 19px;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 20px 0;
+            color: #47b2ee;
+        }
+    }
+
+    .relate {
+        margin-top: 20px;
+        padding: 0 10px;
+
+        .title {
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 5px;
+            margin-right: 5px;
+
+            h3 {
+                font-weight: bold;
+            }
+
+            span {
+                color: #6f6f6f;
+            }
+        }
+
+        ul.relate-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            overflow-x: scroll;
+            white-space: nowrap;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            li.relate-item {
+                width: 40vw;
+                margin: 0 5px;
+                display: inline-block;
+
+                .thumb {
+                    position: relative;
+                    height: 25vw;
+                    overflow: hidden;
+
+                    img {
+                        max-width: 100%;
+                        filter: brightness(0.6);
+                    }
+
+                    span {
+                        position: absolute;
+                        bottom: 15px;
+                        left: 5px;
+                        color: white;
+                        font-size: 20px;
+                        transform-origin: left top;
+                        transform: scale(0.5);
+                    }
+
+                    h5 {
+                        position: absolute;
+                        bottom: 8px;
+                        left: 5px;
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        color: #ffffff;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .comment {
+        margin: 30px 0 10px 0;
+
+        .rating {
+            margin: 0 5px 20px 5px;
+
+            .rating-count {
+                font-weight: bold;
+                font-size: 13px;
+                margin: 15px 0;
+            }
+
+            .rating-content {
+                .userinfo {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .user {
+                        display: flex;
+                        color: #919392;
+
+                        .username {
+                            font-size: 19px;
+                            transform-origin: top left;
+                            transform: scale(0.5);
+                        }
+
+                        .avatar {
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                            position: relative;
+
+                            img {
+                                width: 100%;
+                                border-radius: 50%;
+                            }
+                        }
+
+                        .time {
+                            position: absolute;
+                            left: 44px;
+                            top: 50%;
+                            font-size: 18px;
+                            transform-origin: top left;
+                            transform: scale(0.5);
+                        }
+                    }
+
+                    .count-approve {
+                        display: flex;
+                        margin-right: 15px;
+                        color: #919392;
+
+                        .count {
+                            margin-left: 8px;
+                        }
+                    }
+                }
+
+                p {
+                    margin-left: 45px;
+                    font-size: 12px;
+                    margin-top: 5px;
+                    margin-bottom: 15px;
+                    margin-right: 8px;
+                    line-height: 1.5;
+                }
+
+                .subcomment {
+                    margin-left: 38px;
+
+                    .sub-userinfo {
+                        position: relative;
+
+                        .user {
+                            display: flex;
+                            color: #919392;
+
+                            .username {
+                                font-size: 19px;
+                                transform-origin: top left;
+                                transform: scale(0.5);
+                            }
+
+                            .avatar {
+                                width: 35px;
+                                height: 35px;
+                                border-radius: 50%;
+                                margin-right: 10px;
+                                position: relative;
+
+                                img {
+                                    width: 100%;
+                                    border-radius: 50%;
+                                }
+                            }
+
+                            .time {
+                                position: absolute;
+                                left: 44px;
+                                top: 50%;
+                                font-size: 18px;
+                                transform-origin: top left;
+                                transform: scale(0.5);
+                            }
+                        }
+
+                        .count-approve {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            margin-right: 15px;
+                            color: #919392;
+
+                            .count {
+                                margin-left: 8px;
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 12px;
+                        margin-top: 5px;
+                        margin-bottom: 15px;
+                        line-height: 1.5;
+
+                        .reply-user {
+                            font-size: 12px;
+                            transform-origin: top left;
+                            transform: scale(0.5);
+                            color: #47b2ee;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .fade-enter,
+    .fade-leave-to {
+        opacity: 0;
+    }
+
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity .7s linear;
+    }
+
+    .fade-enter-to,
+    .fade-leave {
+        opacity: 1;
+    }
+
+    .end {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #919392;
+    }
+
+    .good {
+        vertical-align: text-bottom;
+        margin-top: 5px;
+    }
+}

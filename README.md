@@ -22,3 +22,13 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+<!-- 一级路由
+    发现 频道 我的 搜索
+ -->
+
+ <!-- 二级路由
+ 
+    发现页的视频
+  -->

@@ -1,0 +1,76 @@
+.albumList {
+    padding-top: 46px;
+  .van-nav-bar {
+    background-color: #0c0101;
+  }
+
+  /deep/ .van-hairline--bottom::after {
+      border: none;
+  }
+
+  /deep/ .van-nav-bar .van-icon {
+    color: #ffffff;
+  }
+
+  /deep/ .van-nav-bar__title {
+    color: #ffffff;
+  }
+
+  .item {
+    position: relative;
+    img {
+      max-width: 100%;
+      vertical-align: middle;
+      filter: brightness(0.6);
+    }
+    .info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: white;
+      padding: 0 15px;
+      width: calc(100% - 30px);
+
+      .title {
+        display: inline-block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.753);
+        padding-bottom: 10px;
+        padding-right: 13px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        margin-bottom: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+      }
+      h5 {
+        font-weight: normal;
+        font-size: 20px;
+        transform-origin: top left;
+        transform: scale(0.5);
+      }
+    }
+  }
+
+  &.col {
+    overflow: hidden;
+    .item {
+      &:not(:first-of-type) {
+        width: 50%;
+        float: left;
+
+        .info {
+          span {
+            font-size: 12px;
+          }
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

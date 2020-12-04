@@ -1,0 +1,39 @@
+.vm-cate {
+    margin-top: 40px;
+  
+    .catelist {
+      .van-row {
+        .van-col {
+          width: 50%;
+          min-width: 50%;
+          margin: 0;
+          position: relative;
+  
+          img {
+            width: 100%;
+            vertical-align: middle;
+            filter: brightness(0.7);
+          }
+  
+          h3 {
+            font-size: 14px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+  
+            &::before,
+            &::after {
+              content: "#";
+            }
+          }
+        }
+      }
+    }
+  }

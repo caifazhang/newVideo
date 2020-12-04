@@ -1,0 +1,47 @@
+.detail-cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 60px 20px;
+    min-height: 120vh;
+    background-color: #ffffff;
+  
+    .van-nav-bar {
+      background-color: #0c0101;
+    }
+  
+    /deep/ .van-hairline--bottom::after {
+      border: none;
+    }
+  
+    /deep/ .van-nav-bar .van-icon {
+      color: #ffffff;
+    }
+  
+    /deep/ .van-nav-bar__title {
+      color: #ffffff;
+    }
+  
+    .icon-shanchu:before {
+      color: skyblue;
+    } 
+  
+    .format-title {
+      text-align: center;
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+  
+    .format {
+      margin-top: 15px;
+      line-height: 2.5;
+    }
+  
+    .username {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 25px;
+    }
+  }

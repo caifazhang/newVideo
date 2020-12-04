@@ -1,0 +1,85 @@
+.vm-cover {
+    position: relative;
+
+    .cover-bg {
+      width: 100%;
+      min-height: 100vh;
+      position: absolute;
+      z-index: -1;
+      background-size: cover;
+      background-repeat: no-repeat;
+      filter: blur(10px);
+    }
+  
+    .icon-shanchu {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 26px;
+    }
+  
+    .cover-share {
+      width: 310px;
+      position: absolute;
+      height: 500px;
+      background-color: #fff;
+      left: 50%;
+      transform: translateX(-155px);
+      top: 60px;
+      border-radius: 7px;
+      img {
+        width: 310px;
+        height: 310px;
+        background-size: 100% 100%;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-right: 1px solid #6c6d69;
+        border-top: 1px solid #6c6d69;
+      }
+  
+      .cover-share-day {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        font-size: 12px;
+        color: #fff;
+  
+        .share-day {
+          border-right: 1px solid #edeeee;
+          font-size: 27px;
+          line-height: 27px;
+          padding-right: 5px;
+        }
+        .share-time {
+          padding-left: 5px;
+        }
+      }
+  
+      .cover-share-title {
+        font-size: 17px;
+        color: #0c0101;
+        text-align: center;
+        margin: 15px auto;
+      }
+  
+      .cover-share-content {
+        color: gray;
+        padding: 0 10px;
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  
+    .icon-shangchuan {
+      position: absolute;
+      font-size: 16px;
+      transform: translateX(-50%);
+      left: 50%;
+      bottom: 20px;
+    }
+  
+    .icon-shangchuan:before {
+      color: #0c0101;
+    }
+}

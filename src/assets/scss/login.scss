@@ -1,0 +1,156 @@
+.login{
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+
+  .nav-left{
+    display: flex;
+  }
+
+  .van-cell {
+    margin-bottom: 20px;
+  }
+
+  /deep/ .van-button--normal {
+    font-size: 17px;
+  }
+  /deep/ .van-button--round {
+    border-radius: 10px;
+  }
+
+  .logo{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-top: 6px;
+  }
+
+  .logo-text{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    line-height: 46px;
+  }
+
+  /deep/ .van-nav-bar__text{
+    color: #2291e0;
+    font-weight: bold;
+  }
+
+  /deep/ .van-icon-phone-o::before{
+    color: transparent;
+  }
+
+  /deep/ .van-field__control {
+    padding-left: 30px;
+  }
+
+  /deep/ .van-icon-phone-circle-o::before {
+    font-size: 21px;
+    color: #2291e0;
+    margin-left: 11px;
+  }
+
+  .user-box{
+    padding: 0 15px;
+    position: relative;
+    top: -45px;
+    left: 0;
+  }
+
+  .bird{
+    font-size: 19px;
+    position: relative;
+    top: 58px;
+    left: 120px;
+  }
+
+  .bird2 {
+    font-size: 19px;
+    position: relative;
+    top: 58px;
+    left: 120px;
+  }
+
+  .movie-icon {
+    position: relative;
+    top: 159px;
+    left: 200px;
+    font-size: 19px;
+    z-index: 999;
+  }
+
+  .user-phone {
+    padding-left: 20px;
+  }
+
+  .pwd {
+    position: relative;
+    top: 353px;
+    left: -11px;
+    font-size: 21px;
+    z-index: 999;
+  }
+
+  .pwd-inp {
+    padding-left: 37px;
+  }
+
+
+  .sub-title{
+    margin-top: 30px;
+    color: #83838B;
+    font-size: 16px;
+  }
+
+  .user-title{
+    margin-bottom: 50px;
+  }
+
+  .register-box{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 15px 0;
+  }
+
+  .register-btn{
+    padding: 0 15px;
+  }
+
+  .register-title{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 15px;
+    margin-bottom: 50px;
+  }
+
+  .commit-handle {
+    color: #666666;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+
+    .liner {
+      display: inline-block;
+      margin: 0 15px 0 18px;
+      height: 20px;
+      border: 1px solid #2291e0;
+      position: relative;
+      top: 5px;
+    }
+  }
+
+  .forgot {
+    text-align: right;
+  font-size: 0.4rem;
+    margin-top: 0.53333rem;
+    margin-bottom: 20px;
+    color: #666666;
+  }
+
+}

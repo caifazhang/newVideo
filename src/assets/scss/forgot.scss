@@ -1,0 +1,32 @@
+ .forgot {
+     padding-top: 46px;
+     .van-nav-bar {
+         background-color: #0c0101;
+     }
+
+     /deep/ .van-hairline--bottom::after {
+         border: none;
+     }
+
+     /deep/ .van-nav-bar .van-icon {
+         color: #ffffff;
+     }
+
+     /deep/ .van-nav-bar__title {
+         color: #ffffff;
+     }
+
+     /deep/ .van-button--round {
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+
+      .user-box {
+        margin-top: 60px;
+        padding: 0 15px;
+      }
+
+     .email {
+          margin-bottom: 20px;
+      }
+ }

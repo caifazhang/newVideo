@@ -1,0 +1,36 @@
+.vm-series {
+    margin-top: 40px;
+  
+    .series-list {
+      img {
+        max-width: 100%;
+      }
+  
+      h2 {
+        font-weight: bold;
+        font-size: 14px;
+        margin: 10px 0 6px 6px;
+      }
+  
+      .update {
+        color: #9a9a9a;
+        font-size: 20px;
+        transform-origin: top left;
+        transform: scale(0.5);
+        margin-left: 6px;
+      }
+  
+      .content {
+        margin-left: 5px;
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 17px;
+        word-break: break-all;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+      }
+    }
+}

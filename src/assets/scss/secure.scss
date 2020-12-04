@@ -1,0 +1,63 @@
+.secure {
+  padding-top: 40px;
+
+  .van-nav-bar {
+    background-color: #0c0101;
+  }
+
+  /deep/ .van-hairline--bottom::after {
+    border: none;
+  }
+
+  /deep/ .van-nav-bar .van-icon {
+    color: #ffffff;
+  }
+
+  /deep/ .van-nav-bar__title {
+    color: #ffffff;
+  }
+
+  /deep/ .van-nav-bar__text {
+    color: #ffffff;
+  }
+  
+  /deep/ .cell-box .van-cell {
+    padding: 0;
+    height: 44px;
+  }
+
+  /deep/ .cell-box .van-cell {
+    border-bottom: 1px solid #F5F6F7;
+    padding: 15px 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:active {
+      background-color: transparent;
+    }
+
+    span {
+      color: #6f7179;
+    }
+  }
+
+  .logout-box {
+    margin-top: 100px;
+    padding: 0 10px;
+  }
+
+  .form-box {
+    padding: 15px;
+  }
+
+  .form-title {
+    margin-bottom: 50px;
+  }
+
+  .commit-btn {
+    margin-top: 50px;
+  }
+
+}
